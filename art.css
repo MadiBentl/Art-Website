@@ -54,27 +54,41 @@ button:last-child{
 #about{
 	background-color: white;
 	color: #083C5D;
+	text-align: center;
 }
 #about a{
 	color: #328CC1;
 	font-weight: 800;
 }
 #about center{
-	padding-top:40px;
+	padding:20px;
+}
+#circleDetails{
+    display:inline-block; 
 }
 #circleDetails div{
 	float:left;
 }
 #circleDetails img{
 	border-radius:500px;
+	margin-left: 30px;
 }
 ul{
 	list-style-type: none;
 }
+ul:first-child{
+	margin-top: 40px;
+}
 ul li{
-	margin-bottom: 12px;
+	margin-bottom: 30px;
 }
 ul li span{
 	display:block;
 	line-height: 1em;
+}
+#leftList li{
+	text-align: right;
+}
+#rightList li {
+	text-align: left;
 }
