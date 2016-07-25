@@ -11,7 +11,7 @@ h1{
 	line-height:50%;
 	color: white !important;
 }
-center{
+#splash center{
 	padding:80px 0px;
 }
 button{
@@ -61,10 +61,11 @@ button:last-child{
 	font-weight: 800;
 }
 #about center{
-	padding:20px;
+	padding:20px 50px;
 }
 #circleDetails{
     display:inline-block; 
+    margin: 20px;
 }
 #circleDetails div{
 	float:left;
@@ -91,4 +92,25 @@ ul li span{
 }
 #rightList li {
 	text-align: left;
+}
+#traditional{
+	background-color: #328CC1;
+	color: white;
+}
+#traditional center{
+	padding:20px 50px;
+}
+#digital{
+	background-color: #083C5D;
+	color: #f5c410;
+}
+#digital center{
+	padding:20px 50px;
+}
+#contact{
+	background-color: #f5c410;
+	color: white;
+}
+#contact center{
+	padding: 20px 50px;
 }
