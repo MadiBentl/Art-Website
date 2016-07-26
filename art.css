@@ -96,6 +96,17 @@ ul li span{
 #traditional{
 	background-color: #328CC1;
 	color: white;
+	display:inline-block;
+}
+#traditional div{
+	float:left;
+	padding: 0px 50px;
+	max-width:calc(50% - 100px);
+}
+#traditional img{
+	max-width: 300px;
+	border-radius: 500px;
+	border: white 7px solid;
 }
 #traditional center{
 	padding:20px 50px;
