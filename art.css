@@ -3,7 +3,7 @@
 	
 }
 #splash *{
-	color: #f5c410;
+	color: #C4F1BE;
 }
 h1{
 	font-family: 'Marck Script', cursive !important;
@@ -12,10 +12,12 @@ h1{
 	color: white !important;
 }
 #splash center{
-	padding:80px 0px;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%)
 }
 button{
-	background-color:#083C5D;
+	background-color:#525B76;
 	color:white;
 	padding: 15px;
 	font-size: 20px;
@@ -23,26 +25,31 @@ button{
 	border: white 2px solid;
 }
 button:last-child{
-	background-color: #328CC1;
+	background-color: #869d96;
 }
 #splash{
-	background-color:#083C5D;
+	width: 100%;
+	height: calc(100vh - 70px);
+	background-image: url(images/blue_square.JPG) !important;
+	background-color:rgba(81,  90,  118, 0.87);
+	background-size:cover;
 	color: rgba(255, 255, 255, 0.81);
 	margin: 0px;
 	padding: 0px;
 }
 #navbar{
-	background-color: #f5c410;
+	background-color: #C4F1BE;
+	height: 70px;
 }
 #navbar p{
 	display:inline;
 	margin: 20px;
 	font-size: 1.25em;
 	line-height: 3.5em;
-	color: #083C5D;
+	color: #525B76;
 }
 #important{
-	color: #328CC1;
+	color: #869d96;
 	font-weight: 800;
 }
 .links{
@@ -53,11 +60,11 @@ button:last-child{
 }
 #about{
 	background-color: white;
-	color: #083C5D;
+	color: #525B76;
 	text-align: center;
 }
 #about a{
-	color: #328CC1;
+	color: #869d96;
 	font-weight: 800;
 }
 #about center{
@@ -95,7 +102,7 @@ ul li span{
 	text-align: left;
 }
 #traditional{
-	background-color: #328CC1;
+	background-color: #869d96;
 	color: white;
 	display:inline-block;
 }
@@ -113,18 +120,18 @@ ul li span{
 	padding:20px 50px;
 }
 #traditional h3{
-	color: #f5c410;
+	color: #C4F1BE;
 }
 #digital{
-	background-color: #083C5D;
-	color: #f5c410;
+	background-color: #525B76;
+	color: #C4F1BE;
 }
 #digital center{
 	padding:20px 50px;
 }
 #contact{
-	background-color: #f5c410;
-	color: white;
+	background-color: #C4F1BE;
+	color: #869d96;
 }
 #contact center{
 	padding: 20px 50px;
