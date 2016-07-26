@@ -80,7 +80,7 @@ button:last-child{
 #circleDetails img{
 	/*border-radius:500px;
 	margin-left: 30px;*/
-	max-width:400px;
+	
 }
 ul{
 	list-style-type: none;
@@ -136,3 +136,67 @@ ul li span{
 #contact center{
 	padding: 20px 50px;
 }
+#paint h2{
+	color:#869d96;
+}
+#paint center{
+	margin: 110px;
+}
+.column{
+	height: 350px;
+	width: 350px;
+	display:inline-block;
+}
+#img1{
+	background-image: url(images/dive.jpg) !important;
+	background-size:cover;
+}
+#img2{
+	background-image: url(images/trees.JPG) !important;
+	background-size:cover;
+}
+#img3{
+	background-image: url(images/library_of_ephesus.jpg) !important;
+	background-size:cover;
+}
+#img4{
+	background-image: url(images/ile_des_soeurs.JPG) !important;
+	background-size:cover;
+}
+#img5{
+	background-image: url(images/Deciduous.jpg) !important;
+	background-size:cover;
+}
+#img6{
+	background-image: url(images/prairie.jpg) !important;
+	background-size:cover;
+}
+#img7{
+	background-image: url(images/dust.jpg) !important;
+	background-size:cover;
+}
+#img8{
+	background-image: url(images/old_man.jpg) !important;
+	background-size:cover;
+}
+
+
+
+@media (min-width: 0px){
+	#circleDetails img{
+		max-width:300px;
+	}
+	#circleDetails{
+		margin:10px;
+	}
+}
+
+@media (min-width: 948px){
+	#paint center{
+		margin: 110px;
+	}
+	#circleDetails img{
+		max-width:400px;
+	}
+}
+
