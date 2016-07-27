@@ -28,6 +28,8 @@ button:last-child{
 	background-color: #869d96;
 }
 #splash{
+	top: 0;
+    position:relative;
 	width: 100%;
 	height: calc(100vh - 70px);
 	background-image: url(images/blue_square.JPG) !important;
@@ -40,6 +42,12 @@ button:last-child{
 #navbar{
 	background-color: #C4F1BE;
 	height: 70px;
+}
+.navbar-scrolled{
+	position:fixed;
+    margin-top: 0;
+    top:0;
+    width:100%;
 }
 #navbar p{
 	display:inline;
