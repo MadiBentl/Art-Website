@@ -5,7 +5,7 @@
 #splash *{
 	color: #C4F1BE;
 }
-h1{
+#splash h1{
 	font-family: 'Marck Script', cursive !important;
 	font-size: 6em;
 	line-height:10%;
@@ -144,7 +144,7 @@ li:last-child{
 .work h3{
 	color: #C4F1BE;
 }
-.work h2{
+.work h1{
 	color:#869d96;
 }
 .work center{
@@ -223,14 +223,21 @@ li:last-child{
 #contact{
 	background-color: #869d96;
 	color: #C4F1BE;
+	display:inline-block;
+	width:100%;
 }
 #contact center{
-	padding: 20px 50px;
+	padding: 20px 0px;
 }
 .half{
 	width:50%;
-	height: 300px;
+	height: 400px;
 	float:left;
+}
+.half p{
+	margin: 50px;
+	line-height: 1.5em;
+	font-size:1.1em;
 }
 
 @media (min-width: 0px){
