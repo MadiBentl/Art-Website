@@ -225,9 +225,11 @@ li:last-child{
 	color: #C4F1BE;
 	display:inline-block;
 	width:100%;
+	margin:0px;
 }
 #contact center{
-	padding: 0px 0px;
+	padding: 0px;
+	
 }
 .half{
 	width:50%;
