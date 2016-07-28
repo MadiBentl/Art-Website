@@ -31,7 +31,7 @@ button:last-child{
 	top: 0;
     position:relative;
 	width: 100%;
-	height: calc(100vh - 70px);
+	height: 100vh;
 	background-image: url(images/blue_square.JPG) !important;
 	background-color:rgba(81,  90,  118, 0.87);
 	background-size:cover;
@@ -204,8 +204,8 @@ ul li span{
 	background-size:cover;
 }
 #contact{
-	background-color: #C4F1BE;
-	color: #869d96;
+	background-color: #869d96;
+	color: #C4F1BE;
 }
 #contact center{
 	padding: 20px 50px;
@@ -213,9 +213,8 @@ ul li span{
 .half{
 	width:50%;
 	height: 300px;
+	float:left;
 }
-
-
 
 @media (min-width: 0px){
 	#circleDetails img{
