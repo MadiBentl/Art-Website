@@ -124,31 +124,15 @@ ul li span{
 	border-radius: 500px;
 	border: white 7px solid;
 }
-#traditional center{
-	padding:20px 50px;
-}
-#traditional h3{
+.work h3{
 	color: #C4F1BE;
 }
-#digital{
-	background-color: #525B76;
-	color: #C4F1BE;
-}
-#digital center{
-	padding:20px 50px;
-}
-#contact{
-	background-color: #C4F1BE;
-	color: #869d96;
-}
-#contact center{
-	padding: 20px 50px;
-}
-#paint h2{
+.work h2{
 	color:#869d96;
 }
-#paint center{
+.work center{
 	margin: 110px;
+	padding:20px 50px;
 }
 .column{
 	height: 350px;
@@ -186,6 +170,49 @@ ul li span{
 #img8{
 	background-image: url(images/old_man.jpg) !important;
 	background-size:cover;
+}
+#pho1{
+	background-image: url(images/IMG_1389.jpg) !important;
+	background-size:cover;
+}
+#pho2{
+	background-image: url(images/IMG_2471.jpg) !important;
+	background-size:cover;
+}
+#pho3{
+	background-image: url(images/IMG_2512.jpg) !important;
+	background-size:cover;
+}
+#pho4{
+	background-image: url(images/IMG_3072.jpg) !important;
+	background-size:cover;
+}
+#pho5{
+	background-image: url(images/IMG_3419.jpg) !important;
+	background-size:cover;
+}
+#pho6{
+	background-image: url(images/IMG_4083.jpg) !important;
+	background-size:cover;
+}
+#pho7{
+	background-image: url(images/IMG_4334.jpg) !important;
+	background-size:cover;
+}
+#pho8{
+	background-image: url(images/IMG_4337.jpg) !important;
+	background-size:cover;
+}
+#contact{
+	background-color: #C4F1BE;
+	color: #869d96;
+}
+#contact center{
+	padding: 20px 50px;
+}
+.half{
+	width:50%;
+	height: 300px;
 }
 
 
