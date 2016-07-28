@@ -54,11 +54,26 @@ button:last-child{
 	margin: 20px;
 	font-size: 1.25em;
 	line-height: 3.5em;
-	color: #525B76;
 }
 #important{
 	color: #869d96;
 	font-weight: 800;
+}
+#navbar ul{
+	display:inline;
+}
+#left li{
+	margin-left:0px !important;
+}
+li:last-child{
+	margin-right:30px !important;
+}
+#navbar li{
+	display:inline;
+	margin:20px;
+	font-size: 1.25em;
+	line-height: 3.5em;
+	color: #525B76;
 }
 .links{
 	display:inline;
@@ -76,7 +91,7 @@ button:last-child{
 	font-weight: 800;
 }
 #about center{
-	padding:20px 50px;
+	padding:60px 50px;
 }
 #circleDetails{
     display:inline-block; 
@@ -87,19 +102,18 @@ button:last-child{
 }
 #circleDetails img{
 	/*border-radius:500px;
-	margin-left: 30px;*/
-	
+	margin-left: 30px;*/	
 }
-ul{
+#about ul{
 	list-style-type: none;
 }
-ul:first-child{
+#about ul:first-child{
 	margin-top: 40px;
 }
-ul li{
+#about ul li{
 	margin-bottom: 30px;
 }
-ul li span{
+#about ul li span{
 	display:block;
 	line-height: 1em;
 }
@@ -113,6 +127,9 @@ ul li span{
 	background-color: #869d96;
 	color: white;
 	display:inline-block;
+}
+#traditional center{
+	padding: 40px 0px;
 }
 #traditional div{
 	float:left;
