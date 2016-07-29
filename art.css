@@ -271,6 +271,9 @@ button:last-child{
 	#circleDetails{
 		display:block;
 	}
+	#traditional div{
+		max-width:100%;
+	}
 }
 @media (min-width: 650px){
 	#paint center{
@@ -301,6 +304,17 @@ button:last-child{
 	}
 	#circleDetails img{
 		max-width:400px;
+	}
+	#traditional div{
+		max-width:45%;
+		display:flex-box;
+		padding: 0px 20px;
+	}
+	#traditional div p{
+		padding: 0px 20px;
+	}
+	#traditional{
+		display:inline-block;
 	}
 }
 @media (min-width: 940px){
