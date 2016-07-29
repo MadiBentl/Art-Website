@@ -1,6 +1,10 @@
 *{
 	font-family: 'Raleway', sans-serif;	
 }
+body{
+	padding:0%;
+	margin:0%;
+}
 #splash *{
 	color: #C4F1BE;
 }
@@ -8,6 +12,9 @@
 	font-family: 'Marck Script', cursive !important;
 	font-size: 6em;
 	color: white !important;
+}
+#splash h2{
+	margin-top:0;
 }
 #splash center{
 	position: relative;
@@ -232,18 +239,21 @@ button:last-child{
 	display:inline-block;
 	width:100%;
 	margin:0px;
+	padding:0px;
 }
 #contact a{
 	color: white;
 }
 #contact center{
 	padding: 0px;
-	
+	margin:0px;
 }
 .half{
 	width:50%;
 	height: 400px;
 	float:left;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
 }
 .half h1{
 	margin-top: 50px;
@@ -317,8 +327,4 @@ button:last-child{
 		display:inline-block;
 	}
 }
-@media (min-width: 940px){
-	
-}
-
 
