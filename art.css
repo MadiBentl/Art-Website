@@ -7,7 +7,6 @@
 #splash h1{
 	font-family: 'Marck Script', cursive !important;
 	font-size: 6em;
-	line-height:10%;
 	color: white !important;
 }
 #splash center{
@@ -98,7 +97,6 @@ button:last-child{
     margin: 0px;
 }
 #circleDetails div{
-	display:flex-box;
 	float:left;
 	width:33%;
 }
@@ -263,14 +261,50 @@ button:last-child{
 	#circleDetails{
 		margin:10px;
 	}
+	#splash h1{
+		line-height:100%;
+	}
+	#circleDetails div{
+		display:block;
+		width:100%;
+	}
+	#circleDetails{
+		display:block;
+	}
 }
-
-@media (min-width: 948px){
+@media (min-width: 650px){
 	#paint center{
-		margin: 110px;
+		margin: 5px;
+	}
+	#splash h1{
+		line-height:10%;
+	}
+	#circleDetails{
+		display:inline-block;
+	}
+	#circleDetails div{
+		display:flex-box;
+	}
+	#pictureOfMe{
+		max-width: 48%;
+	}
+	#about1, #about2{
+		max-width:25%;
+	}
+}
+@media (min-width: 848px){
+	#paint center{
+		margin: 30px;
+	}
+	#circleDetails div{
+		max-width: 33% !important;
 	}
 	#circleDetails img{
 		max-width:400px;
 	}
 }
+@media (min-width: 940px){
+	
+}
+
 
