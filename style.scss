@@ -1,0 +1,383 @@
+$main: #525B76;
+$secondary: #869d96;
+$highlight: #C4F1BE;
+$white: white;
+@mixin zerospacing(){
+  margin: 0px;
+  padding: 0px;
+}
+*{
+  font-family: 'Raleway', 'sand-serif';
+}
+body{
+  @include zerospacing; 
+}
+#splash{
+  @include zerospacing;
+  top:0;
+  position:relative;
+  width:100%;
+  height:100vh;
+  color:white;
+  background-image: url(images/blue_square.JPG) !important;
+	background-color:rgba(81,  90,  118, 0.87);
+	background-size:cover;
+  *{
+    color: $highlight;
+  }
+  h1{
+  font-family: 'Marck Script', cursive !important;
+	font-size: 6em;
+	color: $white !important;
+  }
+  h2{
+    margin-top:0;
+  }
+  center{
+    position: relative;
+    top:50%;
+    transform: translateY(-50%);
+  }
+}
+a{
+  text-decoration:none;
+  .anchor:target{
+    padding-top: 65px; 
+	  margin-top: -65px;
+  }
+}
+.anchor{
+ 	display: block;
+ 	height: 115px; /*same height as header*/
+ 	margin-top: -115px; /*same height as header*/
+ 	visibility: hidden;
+}
+button{
+  background-color:$main;
+	color:white;
+	padding: 15px;
+	font-size: 20px;
+	text-transform: capitalize;
+	border: white 2px solid;
+  :last-child{
+    background-color:$secondary;
+  }
+}
+#navbar{
+  background-color:$highlight;
+  height:70px;
+  ul{
+    display:inline;
+  }
+  li{
+    display:inline;
+  	margin:20px;
+  	font-size: 1.25em;
+  	line-height: 3.5em;
+  	color: $main;
+  }
+  a{
+    color:$main;
+  }
+}
+.navbar-scrolled{
+	position:fixed;
+  margin-top: 0;
+  top:0;
+  width:100%;
+}
+.important{
+	color: $secondary;
+	font-weight: 800;
+}
+.link{
+  display:inline;
+}
+#left li{
+  margin-left:0px !important;
+  :last-child{
+    margin-right: 30px !important;
+  }
+}
+#right{
+  float:right;
+}
+#about{
+	padding-top: 50px;
+	background-color: $white;
+	color: $main;
+	text-align: center;
+	a{
+	  color: $secondary;
+	  font-weight:800;
+	}
+	center{
+  	padding:30px 50px;
+  }
+  ul{
+    list-style-type:none;
+    :first-child{
+      margin-top:40px;
+    }
+    li{
+      margin-bottom:30px;
+      span{
+        display:block;
+        line-height:1em;
+      }
+    }
+  }
+}
+#circleDetails{
+	width:100%;
+  display:inline-block; 
+  margin: 0px;
+  div{
+  	float:left;
+  	width:33%;
+  }
+  img{
+  	width:300px;
+  	margin:0px;	
+  }
+}
+#leftList li{
+  text-align:right;
+}
+#rightList{
+	padding-left:0px;
+	li {
+  	text-align: left;
+	}
+}
+#traditional{
+	background-color: $secondary;
+	color: $white;
+	display:inline-block;
+	center{
+  	padding: 40px 0px;
+  }
+  div{
+  	float:left;
+  	padding: 0px 50px;
+  	max-width:calc(50% - 100px);
+  }
+  img{
+  	max-width: 300px;
+  	border-radius: 500px;
+  	border: white 7px solid;
+  }
+}
+.work{
+  color: $white;
+  h3{
+    color: $highlight;
+  }
+  h1{
+    color: $secondary;
+  }
+  center{
+  	margin: 110px;
+  	padding:20px 50px;
+  }
+}
+.column{
+	height: 350px;
+	width: 350px;
+	display:inline-block;
+}
+#img1{
+	background-image: url(images/dive.jpg) !important;
+	background-size:cover;
+}
+#img2{
+	background-image: url(images/trees.JPG) !important;
+	background-size:cover;
+}
+#img3{
+	background-image: url(images/library_of_ephesus.jpg) !important;
+	background-size:cover;
+}
+#img4{
+	background-image: url(images/ile_des_soeurs.JPG) !important;
+	background-size:cover;
+}
+#img5{
+	background-image: url(images/Deciduous.jpg) !important;
+	background-size:cover;
+}
+#img6{
+	background-image: url(images/prairie.jpg) !important;
+	background-size:cover;
+}
+#img7{
+	background-image: url(images/dust.jpg) !important;
+	background-size:cover;
+}
+#img8{
+	background-image: url(images/old_man.jpg) !important;
+	background-size:cover;
+}
+#pho1{
+	background-image: url(images/IMG_1389.jpg) !important;
+	background-size:cover;
+}
+#pho2{
+	background-image: url(images/IMG_2471.jpg) !important;
+	background-size:cover;
+}
+#pho3{
+	background-image: url(images/IMG_2512.jpg) !important;
+	background-size:cover;
+}
+#pho4{
+	background-image: url(images/IMG_3072.jpg) !important;
+	background-size:cover;
+}
+#pho5{
+	background-image: url(images/IMG_3419.jpg) !important;
+	background-size:cover;
+}
+#pho6{
+	background-image: url(images/IMG_4083.jpg) !important;
+	background-size:cover;
+}
+#pho7{
+	background-image: url(images/IMG_4334.jpg) !important;
+	background-size:cover;
+}
+#pho8{
+	background-image: url(images/IMG_4337.jpg) !important;
+	background-size:cover;
+}
+#contact{
+  background-color: $secondary;
+  color: $highlight;
+  display:inline-block;
+  @include zerospacing;
+  a{
+    color: $white;
+  }
+  center{
+    @include zerospacing;
+  }
+}
+.half{
+  width:50%;
+	height: 400px;
+	float:left;
+	@include zerospacing;
+	h1{
+	  margin-top: 50px;
+	}
+	p{
+	  margin: 50px;
+  	line-height: 1.5em;
+  	font-size:1.1em;
+	}
+}
+@media (min-width: 0px){
+	#circleDetails{
+	  display:block;
+		margin:10px;
+		img{
+  		max-width:300px;
+  	}
+  	div{
+  		display:block;
+  		width:100%;
+  	}
+	}
+	#splash h1{
+		line-height:100%;
+	}
+	#traditional div{
+		max-width:100%;
+	}
+	ul.topnav li {
+		display: none !important;
+		.icon {
+		  display: inline !important;
+		}
+	}
+	.responsive ul{
+		padding:0px !important;
+		margin:0px !important;
+	}
+	.topnav.responsive li{
+		width: calc(100vw - 20px);
+		margin:0px !important;
+		height:100%;
+		line-height:100%;
+		padding:0px !important;
+		display:block !important;
+	}
+	.topnav.responsive li a{
+		margin:0px 0px 0px 20px !important;
+		line-height:100%;
+		height:100%;
+		padding:0px !important;
+		float:none !important;
+		display:block !important ;
+	}
+	.responsive li:last-child a{
+		display:none !important;
+	}
+	.half{
+		width:100%;
+	}
+
+}
+@media (min-width: 650px){
+	#paint center{
+		margin: 5px;
+	}
+	#splash h1{
+		line-height:10%;
+	}
+	#circleDetails{
+		display:inline-block;
+		div{
+		  display:flex-box;
+		}
+	}
+	#pictureOfMe{
+		max-width: 48%;
+	}
+	#about1, #about2{
+		max-width:25%;
+	}
+	ul.topnav li {
+	  display: inline !important;
+	  .icon {
+  		display: none !important;
+  	}
+	}
+}
+@media (min-width: 848px){
+	#paint center{
+		margin: 30px;
+	}
+	#circleDetails{
+	  div{
+		  max-width: 33% !important;
+	  }
+	  img{
+		  max-width:400px;
+	  }
+	}
+	#traditional{
+	  display:inline-block;
+  	div{
+  		max-width:45%;
+  		display:flex-box;
+  		padding: 0px 20px;
+  		p{
+  		  padding: 0px 20px;
+  		}
+  	}
+	}
+	.half{
+		width:50%;
+	}
+}
