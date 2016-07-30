@@ -282,6 +282,7 @@ button:last-child {
 }
 
 #contact {
+  width:100%;
   background-color: #869d96;
   color: #C4F1BE;
   display: inline-block;
