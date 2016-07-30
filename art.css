@@ -330,7 +330,9 @@ button:last-child{
 	.responsive li:last-child a{
 		display:none !important;
 	}
-	
+	.half{
+		width:100%;
+	}
 
 }
 @media (min-width: 650px){
@@ -377,6 +379,9 @@ button:last-child{
 	}
 	#traditional{
 		display:inline-block;
+	}
+	.half{
+		width:50%;
 	}
 }
 
