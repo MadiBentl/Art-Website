@@ -355,7 +355,7 @@ button:last-child {
   ul.topnav li {
     display: none !important;
   }
-  ul.topnav li .icon {
+  ul.topnav li.icon {
     display: inline !important;
   }
 
@@ -417,7 +417,7 @@ button:last-child {
   ul.topnav li {
     display: inline !important;
   }
-  ul.topnav li .icon {
+  ul.topnav li.icon {
     display: none !important;
   }
 }
