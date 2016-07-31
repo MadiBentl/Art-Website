@@ -1,0 +1,433 @@
+* {
+  font-family: 'Raleway', 'sand-serif';
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+#splash {
+  margin: 0px;
+  padding: 0px;
+  top: 0;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  color: white;
+  background-image: url(images/blue_square.JPG) !important;
+  background-color: rgba(81, 90, 118, 0.87);
+  background-size: cover;
+}
+#splash * {
+  color: #C4F1BE;
+}
+#splash h1 {
+  font-family: 'Marck Script', cursive !important;
+  font-size: 6em;
+  color: white !important;
+}
+#splash h2 {
+  margin-top: 0;
+}
+#splash center {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+a {
+  text-decoration: none;
+}
+a .anchor:target {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+
+.anchor {
+  display: block;
+  height: 115px;
+  /*same height as header*/
+  margin-top: -115px;
+  /*same height as header*/
+  visibility: hidden;
+}
+
+button {
+  background-color: #525B76;
+  color: white;
+  padding: 15px;
+  font-size: 20px;
+  text-transform: capitalize;
+  border: white 2px solid;
+}
+button:last-child {
+  background-color: #869d96;
+}
+
+#navbar {
+  background-color: #C4F1BE;
+  height: 70px;
+}
+#navbar ul {
+  display: inline;
+}
+#navbar li {
+  display: inline;
+  margin: 20px;
+  font-size: 1.25em;
+  line-height: 3.5em;
+  color: #525B76;
+}
+#navbar a {
+  color: #525B76;
+}
+
+.navbar-scrolled {
+  position: fixed;
+  margin-top: 0;
+  top: 0;
+  width: 100%;
+}
+
+.important {
+  color: #869d96;
+  font-weight: 800;
+}
+
+.links {
+  display: inline;
+}
+
+#left li {
+  margin-left: 0px !important;
+}
+#left li :last-child {
+  margin-right: 30px !important;
+}
+
+#right {
+  float: right;
+}
+
+#about {
+  padding-top: 50px;
+  background-color: white;
+  color: #525B76;
+  text-align: center;
+}
+#about a {
+  color: #869d96;
+  font-weight: 800;
+}
+#about center {
+  padding: 30px 50px;
+}
+#about ul {
+  list-style-type: none;
+}
+#about ul :first-child {
+  margin-top: 40px;
+}
+#about ul li {
+  margin-bottom: 30px;
+}
+#about ul li span {
+  display: block;
+  line-height: 1em;
+}
+
+#circleDetails {
+  width: 100%;
+  display: inline-block;
+  margin: 0px;
+}
+#circleDetails div {
+  float: left;
+  width: 33%;
+}
+#circleDetails img {
+  width: 300px;
+  margin: 0px;
+}
+
+#leftList li {
+  text-align: right;
+}
+
+#rightList {
+  padding-left: 0px;
+}
+#rightList li {
+  text-align: left;
+}
+
+#traditional {
+  background-color: #869d96;
+  color: white;
+  display: inline-block;
+}
+#traditional center {
+  padding: 40px 0px;
+}
+#traditional div {
+  float: left;
+  padding: 0px 50px;
+  max-width: calc(50% - 100px);
+}
+#traditional img {
+  max-width: 300px;
+  border-radius: 500px;
+  border: white 7px solid;
+}
+
+.work {
+  color: white;
+}
+.work h3 {
+  color: #C4F1BE;
+}
+.work h1 {
+  color: #869d96;
+}
+.work center {
+  margin: 110px;
+  padding: 20px 50px;
+}
+
+.column {
+  height: 350px;
+  width: 350px;
+  display: inline-block;
+}
+
+#img1 {
+  background-image: url(images/dive.jpg) !important;
+  background-size: cover;
+}
+
+#img2 {
+  background-image: url(images/trees.JPG) !important;
+  background-size: cover;
+}
+
+#img3 {
+  background-image: url(images/library_of_ephesus.jpg) !important;
+  background-size: cover;
+}
+
+#img4 {
+  background-image: url(images/ile_des_soeurs.JPG) !important;
+  background-size: cover;
+}
+
+#img5 {
+  background-image: url(images/Deciduous.jpg) !important;
+  background-size: cover;
+}
+
+#img6 {
+  background-image: url(images/prairie.jpg) !important;
+  background-size: cover;
+}
+
+#img7 {
+  background-image: url(images/dust.jpg) !important;
+  background-size: cover;
+}
+
+#img8 {
+  background-image: url(images/old_man.jpg) !important;
+  background-size: cover;
+}
+
+#pho1 {
+  background-image: url(images/IMG_1389.jpg) !important;
+  background-size: cover;
+}
+
+#pho2 {
+  background-image: url(images/IMG_2471.jpg) !important;
+  background-size: cover;
+}
+
+#pho3 {
+  background-image: url(images/IMG_2512.jpg) !important;
+  background-size: cover;
+}
+
+#pho4 {
+  background-image: url(images/IMG_3072.jpg) !important;
+  background-size: cover;
+}
+
+#pho5 {
+  background-image: url(images/IMG_3419.jpg) !important;
+  background-size: cover;
+}
+
+#pho6 {
+  background-image: url(images/IMG_4083.jpg) !important;
+  background-size: cover;
+}
+
+#pho7 {
+  background-image: url(images/IMG_4334.jpg) !important;
+  background-size: cover;
+}
+
+#pho8 {
+  background-image: url(images/IMG_4337.jpg) !important;
+  background-size: cover;
+}
+
+#contact {
+  width:100%;
+  background-color: #869d96;
+  color: #C4F1BE;
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+}
+#contact a {
+  color: white;
+}
+#contact center {
+  margin: 0px;
+  padding: 0px;
+}
+
+.half {
+  width: 50%;
+  height: 400px;
+  float: left;
+  margin: 0px;
+  padding: 0px;
+}
+.half h1 {
+  margin-top: 50px;
+}
+.half p {
+  margin: 50px;
+  line-height: 1.5em;
+  font-size: 1.1em;
+}
+
+@media (min-width: 0px) {
+  #circleDetails {
+    display: block;
+    margin: 10px;
+  }
+  #circleDetails img {
+    max-width: 300px;
+  }
+  #circleDetails div {
+    display: block;
+    width: 100%;
+  }
+
+  #splash h1 {
+    line-height: 100%;
+  }
+
+  #traditional div {
+    max-width: 100%;
+  }
+
+  ul.topnav li {
+    display: none !important;
+  }
+  ul.topnav li .icon {
+    display: inline !important;
+  }
+
+  .responsive ul {
+    padding: 0px !important;
+    margin: 0px !important;
+  }
+
+  .topnav.responsive li {
+    width: calc(100vw - 20px);
+    margin: 0px !important;
+    height: 100%;
+    line-height: 100%;
+    padding: 0px !important;
+    display: block !important;
+  }
+
+  .topnav.responsive li a {
+    margin: 0px 0px 0px 20px !important;
+    line-height: 100%;
+    height: 100%;
+    padding: 0px !important;
+    float: none !important;
+    display: block !important;
+  }
+
+  .responsive li:last-child a {
+    display: none !important;
+  }
+
+  .half {
+    width: 100%;
+  }
+}
+@media (min-width: 650px) {
+  #paint center {
+    margin: 5px;
+  }
+
+  #splash h1 {
+    line-height: 10%;
+  }
+
+  #circleDetails {
+    display: inline-block;
+  }
+  #circleDetails div {
+    display: flex-box;
+  }
+
+  #pictureOfMe {
+    max-width: 48%;
+  }
+
+  #about1, #about2 {
+    max-width: 25%;
+  }
+
+  ul.topnav li {
+    display: inline !important;
+  }
+  ul.topnav li .icon {
+    display: none !important;
+  }
+}
+@media (min-width: 848px) {
+  #paint center {
+    margin: 30px;
+  }
+
+  #circleDetails div {
+    max-width: 33% !important;
+  }
+  #circleDetails img {
+    max-width: 400px;
+  }
+
+  #traditional {
+    display: inline-block;
+  }
+  #traditional div {
+    max-width: 45%;
+    display: flex-box;
+    padding: 0px 20px;
+  }
+  #traditional div p {
+    padding: 0px 20px;
+  }
+
+  .half {
+    width: 50%;
+  }
+}
