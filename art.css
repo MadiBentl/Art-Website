@@ -1,5 +1,6 @@
 * {
-  font-family: 'Raleway', 'sand-serif'; }
+  font-family: 'Raleway', 'sand-serif';
+  padding: 0px; }
 
 body {
   margin: 0px;
@@ -274,21 +275,33 @@ button {
       display: inline !important; }
 
   .responsive ul {
+    margin: 0px;
+    padding: 0px;
+    margin: 0px;
     padding: 0px !important;
-    margin: 0px !important; }
+    display: block;
+    float: left; }
+
+  #right, .links {
+    margin: 0px;
+    padding: 0px; }
 
   .topnav.responsive li {
-    width: calc(100vw - 20px);
+    white-space: nowrap;
+    width: calc(100vw - 2px);
     margin: 0px !important;
-    height: 100%;
-    line-height: 100%;
     padding: 0px !important;
-    display: block !important; }
+    display: block !important;
+    text-align: center;
+    background-color: #C4F1BE;
+    border: #525B76 solid 1px;
+    float: left; }
+    .topnav.responsive li a:hover {
+      opacity: 0.5; }
 
   .topnav.responsive li a {
-    margin: 0px 0px 0px 20px !important;
-    line-height: 100%;
-    height: 100%;
+    margin: 0px !important;
+    line-height: 200%;
     padding: 0px !important;
     float: none !important;
     display: block !important; }
