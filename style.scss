@@ -61,10 +61,8 @@ button{
 	text-transform: capitalize;
 	border: white 2px solid;
 }
-#buttons{
-	:last-child{
-    background-color:$secondary;
-  }
+#myWork{
+	background-color: $secondary !important;
 }
 #navbar{
   background-color:$highlight;
@@ -329,6 +327,9 @@ button{
 		float:none !important;
 		display:block !important ;
 	}
+	#right li:last-child {
+  		display: inline !important;
+	}
 	.responsive li:last-child{
 		a{
 		display:none !important;
@@ -360,9 +361,9 @@ button{
 	}
 	ul.topnav li {
 	  display: inline !important;
-	  .icon {
+	}
+	#right li:last-child {
   		display: none !important;
-  	}
 	}
 }
 @media (min-width: 848px){

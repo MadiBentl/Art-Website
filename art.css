@@ -51,8 +51,8 @@ button {
   text-transform: capitalize;
   border: white 2px solid; }
 
-#buttons :last-child {
-  background-color: #869d96; }
+#myWork {
+  background-color: #869d96 !important; }
 
 #navbar {
   background-color: #C4F1BE;
@@ -293,6 +293,9 @@ button {
     float: none !important;
     display: block !important; }
 
+  #right li:last-child {
+    display: inline !important; }
+
   .responsive li:last-child a {
     display: none !important; }
 
@@ -318,8 +321,9 @@ button {
 
   ul.topnav li {
     display: inline !important; }
-    ul.topnav li .icon {
-      display: none !important; } }
+
+  #right li:last-child {
+    display: none !important; } }
 @media (min-width: 848px) {
   .work center {
     margin: 30px; }
