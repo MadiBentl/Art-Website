@@ -318,6 +318,9 @@ button{
 	#right, .links{
 		@include zerospacing;
 	}
+	#left li{
+		margin-left: 20px !important;
+	}
 	.topnav.responsive li{
 		white-space:nowrap;
 		width: calc(100vw - 2px);
@@ -343,9 +346,12 @@ button{
   		display: inline !important;
 	}
 	.responsive li:last-child{
-		a{
-		display:none !important;
-		}
+		border:none;
+		float:right;
+		width:10%;
+		position: absolute;
+		right: 12px;
+		top: 12px;
 	}
 	.half{
 		width:100%;
