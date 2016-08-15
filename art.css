@@ -50,8 +50,9 @@ button {
   font-size: 20px;
   text-transform: capitalize;
   border: white 2px solid; }
-  button :last-child {
-    background-color: #869d96; }
+
+#buttons :last-child {
+  background-color: #869d96; }
 
 #navbar {
   background-color: #C4F1BE;

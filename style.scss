@@ -6,6 +6,7 @@ $white: white;
   margin: 0px;
   padding: 0px;
 }
+
 *{
   font-family: 'Raleway', 'sand-serif';
 }
@@ -59,7 +60,9 @@ button{
 	font-size: 20px;
 	text-transform: capitalize;
 	border: white 2px solid;
-  :last-child{
+}
+#buttons{
+	:last-child{
     background-color:$secondary;
   }
 }
@@ -326,8 +329,10 @@ button{
 		float:none !important;
 		display:block !important ;
 	}
-	.responsive li:last-child a{
+	.responsive li:last-child{
+		a{
 		display:none !important;
+		}
 	}
 	.half{
 		width:100%;
@@ -374,14 +379,14 @@ button{
 	}
 	#traditional{
 	  display:inline-block;
-  	div{
-  		max-width:45%;
-  		display:flex-box;
-  		padding: 0px 20px;
-  		p{
-  		  padding: 0px 20px;
-  		}
-  	}
+	  	div{
+	  		max-width:45%;
+	  		display:flex-box;
+	  		padding: 0px 20px;
+	  		p{
+	  		  padding: 0px 20px;
+	  		}
+	  	}
 	}
 	.half{
 		width:50%;
