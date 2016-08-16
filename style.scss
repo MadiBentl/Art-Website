@@ -137,12 +137,14 @@ button{
   }
 }
 #circleDetails{
-	width:100%;
+	width:90%;
   display:inline-block; 
   margin: 0px;
+  padding:0px;
   div{
   	float:left;
   	width:33%;
+  	display:flex;
   }
   img{
   	width:300px;

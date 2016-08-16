@@ -116,12 +116,14 @@ button {
         line-height: 1em; }
 
 #circleDetails {
-  width: 100%;
+  width: 90%;
   display: inline-block;
-  margin: 0px; }
+  margin: 0px;
+  padding: 0px; }
   #circleDetails div {
     float: left;
-    width: 33%; }
+    width: 33%;
+    display: flex; }
   #circleDetails img {
     width: 300px;
     margin: 0px; }
