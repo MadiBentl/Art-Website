@@ -4,21 +4,22 @@
 
 body {
   margin: 0px;
-  padding: 0px; }
+  padding: 0px;
+  top: 0; }
 
 #splash {
   margin: 0px;
   padding: 0px;
   top: 0;
   position: relative;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   color: white;
   background-image: url(images/blue_square.JPG) !important;
   background-color: rgba(81, 90, 118, 0.87);
   background-size: cover; }
   #splash * {
-    color: #C4F1BE; }
+    color: white; }
   #splash h1 {
     font-family: 'Marck Script', cursive !important;
     font-size: 6em;
@@ -235,7 +236,8 @@ button {
   color: #C4F1BE;
   display: inline-block;
   margin: 0px;
-  padding: 0px; }
+  padding: 0px;
+  width: 100%; }
   #contact a {
     color: white; }
   #contact center {

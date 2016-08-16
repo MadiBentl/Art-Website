@@ -13,19 +13,20 @@ $white: white;
 }
 body{
   @include zerospacing; 
+  top:0;
 }
 #splash{
   @include zerospacing;
   top:0;
   position:relative;
-  width:100%;
+  width:100vw;
   height:100vh;
   color:white;
   background-image: url(images/blue_square.JPG) !important;
 	background-color:rgba(81,  90,  118, 0.87);
 	background-size:cover;
   *{
-    color: $highlight;
+    color: $white;
   }
   h1{
   font-family: 'Marck Script', cursive !important;
@@ -265,6 +266,7 @@ button{
   color: $highlight;
   display:inline-block;
   @include zerospacing;
+  width:100%;
   a{
     color: $white;
   }
