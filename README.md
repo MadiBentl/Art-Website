@@ -1,10 +1,10 @@
-# Art-Website
-A website designed to showcase my paintings, drawings and photography.
+Art-Website
 
-This website uses the following technologies:
+A responsive website showcasing my artwork, featuring paintings, photography and drawings. 
 
-HTML
-CSS/SASS
-Javascript
-jQuery
-Parallax Scrolling (skrollr.js)
+The website uses the following technology:
+- HTML5
+- CSS3/SASS
+- Javascript
+- jQuery
+- parallax scrolling (skrollr.js)
